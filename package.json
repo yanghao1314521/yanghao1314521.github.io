@@ -1,0 +1,25 @@
+{
+  "name": "hao-word",
+  "version": "2.0.0",
+  "description": "A project of vuepress-theme-hope",
+  "license": "MIT",
+  "author": "yanghao",
+  "private": true,
+  "scripts": {
+    "docs:clean-dev": "vuepress dev src --clean-cache",
+    "dev": "vuepress dev src --temp .temp  ",
+    "build": "vuepress build src",
+    "electron:icon": "electron-icon-builder --input=./appIcon/icon.png --output=./docs/.vuepress/public --flatten"
+  },
+  "devDependencies": {
+    "@vuepress/client": "2.0.0-beta.53",
+    "@vuepress/plugin-search": "2.0.0-beta.53",
+    "speed-measure-webpack-plugin": "^1.5.0",
+    "vue": "^3.2.41",
+    "vuepress": "2.0.0-beta.53",
+    "vuepress-theme-hope": "2.0.0-beta.121"
+  },
+  "dependencies": {
+    "fs": "^0.0.2"
+  }
+}
