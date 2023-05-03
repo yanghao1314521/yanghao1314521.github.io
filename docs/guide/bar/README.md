@@ -9,5 +9,5 @@ We support bar feature, ...
 
 ## Details
 
-- [baz](src/guide/bar/baz.md)
+- [baz](docs/guide/bar/baz.md)
 - ...

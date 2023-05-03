@@ -7,10 +7,10 @@ icon: creative
 
 ### Bar
 
-- [baz](src/guide/bar/baz.md)
+- [baz](docs/guide/bar/baz.md)
 - ...
 
 ### Foo
 
-- [ray](src/guide/foo/ray.md)
+- [ray](docs/guide/foo/ray.md)
 - ...

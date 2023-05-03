@@ -6,9 +6,9 @@
   "author": "yanghao",
   "private": true,
   "scripts": {
-    "docs:clean-dev": "vuepress dev src --clean-cache",
-    "dev": "vuepress dev src --temp .temp  ",
-    "build": "vuepress build src",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "dev": "vuepress dev docs --temp .temp  ",
+    "build": "vuepress build docs",
     "electron:icon": "electron-icon-builder --input=./appIcon/icon.png --output=./docs/.vuepress/public --flatten"
   },
   "devDependencies": {
