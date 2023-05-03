@@ -5,7 +5,7 @@ export default defineUserConfig({
     title: "Java知识体系", //网站名称
     description: "用心写代码，不辜负程序员之名", //网站描述
     base: "/",
-    dest: "./dist/",
+    dest: "./docs/",
     host: "0.0.0.0",
     port: 8080,
     open: false,

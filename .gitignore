@@ -256,5 +256,5 @@ Temporary Items
 
 /.temp/
 /.idea/
-/.idea/
 /src/.vuepress/.temp/
+/docs/
